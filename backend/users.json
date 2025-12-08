@@ -1,0 +1,23 @@
+{
+    "admin@ultronfx.com": {
+        "username": "admin@ultronfx.com",
+        "email": "admin@ultronfx.com",
+        "full_name": "Admin User",
+        "hashed_password": "$pbkdf2-sha256$29000$QAhhDKHUOgcAgNCaE8JYyw$U616//MJEQdg9IBh6TebGcQa5ozNUHQdTQcKu1ge85U",
+        "disabled": false
+    },
+    "user1@ultronfx.com": {
+        "username": "user1@ultronfx.com",
+        "email": "user1@ultronfx.com",
+        "full_name": "User One",
+        "hashed_password": "$pbkdf2-sha256$29000$vzdm7D2HEIKQUgrB2HsvJQ$JHwv1wfqZOwmDnifZ/3rumqKsIg1za56iHvXocx37dE",
+        "disabled": false
+    },
+    "user2@ultronfx.com": {
+        "username": "user2@ultronfx.com",
+        "email": "user2@ultronfx.com",
+        "full_name": "User Two",
+        "hashed_password": "$pbkdf2-sha256$29000$ptS6d651jvE.h/Cek1LKmQ$t1NMaVsvikaSzzfMeF6voXtshr3ZqwCYoJlofeUlB8Y",
+        "disabled": false
+    }
+}
