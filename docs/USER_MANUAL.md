@@ -22,8 +22,8 @@ Before you begin, ensure you have the following software installed on your compu
 Open your terminal (PowerShell or Command Prompt) and run:
 
 ```bash
-git clone https://github.com/yourusername/ultronfx.git
-cd ultronfx
+git clone https://github.com/Alpha-Soumen/UltronFX.git
+cd UltronFX
 ```
 
 ### Step B: Backend Setup (The Brain)
