@@ -70,9 +70,9 @@ The central hub for real-time market monitoring. It aggregates AI predictions, l
 ### 📱 Responsive Design & Features
 Engineered to work seamlessly across all devices, maintaining functionality and aesthetics.
 
-| **Mobile View** | **Stats View** | **Academy View** |
+| **User Management** | **System Status Panel** | **Account Settings** |
 | :---: | :---: | :---: |
-| ![Mobile UI](./web%20screenshots/Screenshot%202025-12-08%20110420.png) | ![Stats](./web%20screenshots/Screenshot%202025-12-08%20110414.png) | ![Academy](./web%20screenshots/Screenshot%202025-12-08%20110226.png) |
+| ![User Management](./web%20screenshots/Screenshot%202025-12-08%20110420.png) | ![System Status Panel](./web%20screenshots/Screenshot%202025-12-08%20110414.png) | ![Account Settings](./web%20screenshots/Screenshot%202025-12-08%20110226.png) |
 
 <br/>
 
