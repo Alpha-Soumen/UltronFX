@@ -125,10 +125,12 @@ cd UltronFX
 cd backend
 python -m venv venv
 .\venv\Scripts\activate   # Windows (PowerShell)
- # .\venv\Scripts\activate : File ... Activate.ps1 cannot be loaded because running scripts is disabled on this system.
+# .\venv\Scripts\activate : File ... Activate.ps1 cannot be loaded because running scripts is disabled on this system.
 # If you see this error while activating the virtual environment
 Get-ExecutionPolicy # Check your current execution policy
 Set-ExecutionPolicy RemoteSigned -Scope Process # Allow local scripts for the current session Run this command in PowerShell
+# Now activate your environment again
+\venv\Scripts\Activate.ps1
 # source venv/bin/activate # Mac/Linux
 pip install -r requirements.txt
 ```
