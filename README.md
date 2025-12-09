@@ -140,11 +140,106 @@ pip install -r requirements.txt
 
 * 
 **Step C: Frontend Setup (The Interface)**
+  
+✅**Pre-Installation Checklist (Before Running `npm install`)**
+
 Open a **new terminal** and run:
-```bash
+
+This section ensures the frontend installs cleanly without errors.
+
+---
+
+**1️⃣ Verify Node.js Version**
+
+UltronFX requires **Node.js 18+**.
+
+Check your installed version:
+
+```powershell
+node -v
+```
+
+If it's older than 18, download the latest LTS:
+👉 [https://nodejs.org](https://nodejs.org)
+
+---
+
+**2️⃣ Verify npm Version**
+
+Check npm version:
+
+```powershell
+npm -v
+```
+
+If npm is outdated, update it:
+
+```powershell
+npm install -g npm
+```
+
+---
+
+**3️⃣ Ensure You Are Inside the Correct Directory**
+
+Before running `npm install`, navigate to the *frontend folder*:
+
+```powershell
 cd frontend
+```
+
+Run this to confirm:
+
+```powershell
+pwd   # shows current directory
+```
+
+You should see something like:
+
+```
+.../UltronFX/frontend
+  npm install
+```
+
+---
+
+**4️⃣ Remove Old / Corrupted Node Modules (If Exists)**
+
+If you already tried installing once, delete old modules:
+
+```powershell
+rmdir /s /q node_modules
+```
+
+Also remove the existing lock file:
+
+```powershell
+del package-lock.json
+```
+
+This prevents dependency conflicts.
+
+---
+
+**5️⃣ Install Dependencies Fresh**
+
+Now your environment is clean and safe to install:
+
+```powershell
 npm install
 ```
+
+---
+
+⭐ **Optional — Windows PowerShell Fix (Rare Cases)**
+
+If npm fails with permission issues:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+
+---
 
 ### 3. Running the Application
 
