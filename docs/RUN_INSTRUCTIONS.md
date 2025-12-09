@@ -6,7 +6,7 @@ This project consists of a Python Backend (FastAPI) and a React Frontend (Vite).
 - Python 3.8+
 - Node.js & npm
 
-## 1. Start the Backend
+## 1. Start the Backend 
 Open a terminal in VS Code and run:
 
 ```powershell
