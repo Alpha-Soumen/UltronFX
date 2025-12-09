@@ -115,8 +115,8 @@ Ensure you have the following installed:
 
 **Step A: Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/ultronfx.git 
-cd ultronfx
+git clone https://github.com/Alpha-Soumen/UltronFX.git
+cd UltronFX
 ```
 
 **Step B: Backend Setup (The Brain)**
@@ -124,10 +124,21 @@ cd ultronfx
 cd backend
 python -m venv venv
 .\venv\Scripts\activate   # Windows (PowerShell)
+ # .\venv\Scripts\activate : File ... Activate.ps1 cannot be loaded because running scripts is disabled on this system.
+# If you see this error while activating the virtual environment
+Get-ExecutionPolicy # Check your current execution policy
+Set-ExecutionPolicy RemoteSigned -Scope Process # Allow local scripts for the current session Run this command in PowerShell
 # source venv/bin/activate # Mac/Linux
 pip install -r requirements.txt
 ```
+### ✔ Why this is safe?
 
+* **RemoteSigned** → Allows *local scripts* like `Activate.ps1` to run
+* **-Scope Process** → Only affects the *current PowerShell window*
+* **Auto-reverts** when the terminal is closed
+* Keeps system security intact
+
+* 
 **Step C: Frontend Setup (The Interface)**
 Open a **new terminal** and run:
 ```bash
@@ -164,7 +175,7 @@ npm run dev
 ### 4. Login Credentials
 | Role | Email | Password |
 | :--- | :--- | :--- |
-| **User** | `user1@ultronfx.com` | `password123` |
+| **User** | `user1@ultronfx.com` | `user123` |
 | **Admin** | `admin@ultronfx.com` | `admin123` |
 
 ### 5. Troubleshooting
