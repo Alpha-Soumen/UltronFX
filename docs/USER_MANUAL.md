@@ -106,7 +106,7 @@ npm run dev
 
 | Role | Email | Password |
 | :--- | :--- | :--- |
-| **User** | `user1@ultronfx.com` | `password123` |
+| **User** | `user1@ultronfx.com` | `user123` |
 | **Admin** | `admin@ultronfx.com` | `admin123` |
 
 ### Key Features to Try:
