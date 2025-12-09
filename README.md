@@ -52,17 +52,18 @@ Built with a **"Futuristic Fintech"** design philosophy, it combines a stunning 
 
 ### 🖥️ Dashboard & Command Center
 The central hub for real-time market monitoring. It aggregates AI predictions, live prices, and sentiment analysis into a single glassmorphic view.
+
 ![Main Dashboard](./web%20screenshots/Screenshot%202025-12-08%20110111.png)
 
 <br/>
 
-### 📊 Deep Learning Analysis
-Detailed breakdown of the Transformer V3 model's forecast, visualized against historical price action.
+### 📊 Dashboard View
 
-| **Price Action** | **Risk Metrics** |
+
+| **Dark Mode** | **Export Section** |
 | :---: | :---: |
-| ![Price Action](./web%20screenshots/Screenshot%202025-12-08%20110102.png) | ![Risk Metrics](./web%20screenshots/Screenshot%202025-11-29%20202745.png) |
-| *High-precision charting with interactive tools* | *Live risk assessment and volatility gauging* |
+| ![Dark Mode](./web%20screenshots/Screenshot%202025-12-08%20110102.png) | ![Export Section](./web%20screenshots/Screenshot%202025-11-29%20202745.png) |
+
 
 <br/>
 
