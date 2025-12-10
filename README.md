@@ -322,6 +322,12 @@ Their support played a crucial role in the successful completion of my internshi
 
 ---
 
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
 ## 👨‍💻 Developed by
 
 **Soumen Bhunia**
@@ -330,6 +336,3 @@ Their support played a crucial role in the successful completion of my internshi
 
 ---
 
-## �📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
