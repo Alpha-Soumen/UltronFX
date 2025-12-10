@@ -322,7 +322,7 @@ Their support played a crucial role in the successful completion of my internshi
 
 ---
 
-## �‍💻 Developed by
+## 👨‍💻 Developed by
 
 **Soumen Bhunia**
 
